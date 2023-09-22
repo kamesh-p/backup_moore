@@ -1,0 +1,8 @@
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Creates three columns of equal width */
+  gap: 20px; /* Gap between columns */
+}
